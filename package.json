@@ -1,6 +1,6 @@
 {
   "name": "seconds-convert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert milliseconds or seconds to days, hours, minutes, and seconds.",
   "main": "index.js",
   "scripts": {
