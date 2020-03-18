@@ -1,0 +1,25 @@
+{
+  "name": "seconds-convert",
+  "version": "1.0.0",
+  "description": "Convert milliseconds or seconds to days, hours, minutes, and seconds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wshiqtb/seconds-convert"
+  },
+  "keywords": [
+    "seconds",
+    "milliseconds",
+    "days",
+    "time",
+    "convert",
+    "converter",
+    "hours",
+    "minutes"
+  ],
+  "author": "wshiqtb <407733614@qq.com>",
+  "license": "ISC"
+}
