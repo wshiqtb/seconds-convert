@@ -2,9 +2,12 @@
   "name": "seconds-convert",
   "version": "1.0.1",
   "description": "Convert milliseconds or seconds to days, hours, minutes, and seconds.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf dist/",
+    "build": "yarn clean & rollup -c"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,11 @@
     "minutes"
   ],
   "author": "wshiqtb <407733614@qq.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7",
+    "rimraf": "^3.0.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
 }
