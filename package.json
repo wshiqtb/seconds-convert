@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.min.js",
+  "unpkg": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist/",
     "build": "yarn clean & rollup -c"
