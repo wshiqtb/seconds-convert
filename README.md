@@ -45,7 +45,7 @@ console.log(secondsConvert(638273243, {unit:'ms', tag:'hours'}));
 Type: `Number`
 
 #### options
-Type: `String | Object`
+Type: `Object`
 
 Default: `{unit:'sec', tag:'days'}`
 
