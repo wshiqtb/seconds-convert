@@ -1,7 +1,7 @@
 {
   "name": "seconds-convert",
   "version": "2.0.1",
-  "description": "Convert milliseconds or seconds to days, hours, minutes, seconds and milliseconds.",
+  "description": "Convert milliseconds or seconds to days, hours, minutes, seconds and milliseconds.将一段秒或毫秒数转换为天、时、分、秒、毫秒",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.min.js",
